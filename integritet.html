@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Integritetspolicy – Puckkoll</title>
+  <meta name="description" content="Puckkoll har inga konton, ingen reklam, ingen analys och ingen spårning. Här står vad appen sparar på telefonen och vad notisservern lagrar.">
+  <meta name="theme-color" content="#2b6fd0">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="assets/favicon.png" alt="" width="28" height="28">Puckkoll</a>
+    <nav aria-label="Main"><a href="./#features">Funktioner</a><a href="integritet.html">Integritet</a><a href="support.html">Support</a></nav>
+  </div>
+</header>
+<main class="wrap">
+  <article class="prose">
+    <h1>Integritetspolicy</h1>
+    <p class="meta">Puckkoll &middot; Senast uppdaterad 31 oktober 2026 &middot; <a href="privacy.html">English</a></p>
+
+    <p><strong>Puckkoll har inga konton, ingen reklam, ingen analys och ingen spårning.</strong> Appen vet inte vem du är. Det mesta som appen känner till finns kvar på din telefon. En liten server som jag driver skickar notiserna och sparar bara det som behövs för det. Här står exakt vad, och varför.</p>
+
+    <h2>Vem som ansvarar</h2>
+    <p>Anders Johansson, privatperson i Sverige, gör Puckkoll och driver servern. Jag är personuppgiftsansvarig för de uppgifter som beskrivs här. Kontakt: se <a href="#fragor">Frågor</a> nedan.</p>
+
+    <h2>Det som stannar på din telefon</h2>
+    <ul>
+      <li>Lagen och spelarna du följer, dina notisval, språk, utseende, tabellens kolumner och övriga inställningar.</li>
+      <li>En kopia av senaste schemat, så att appen öppnar snabbt.</li>
+      <li>Bilder du väljer åt lag. De väljs med systemets bildväljare, så Puckkoll får aldrig tillgång till ditt bildbibliotek utan bara den bild du väljer. De sparas i appens egen lagring och skickas aldrig någonstans.</li>
+      <li>En slumpad identitet för din telefon, sparad i nyckelringen. Om du använder iCloud-nyckelringen synkar Apple den mellan dina egna enheter, och det är så Tipset känner igen dig på en ny telefon. Jag kan inte läsa den hos Apple.</li>
+      <li>Apple Watch-appen och widgetarna får lagen du följer från iPhone via Apples egen anslutning och en appgrupp på telefonen, så inget extra lämnar den.</li>
+      <li>Matchsammanfattningar som skrivs med Apple Intelligence skapas på din iPhone. Texten lämnar den aldrig.</li>
+    </ul>
+
+    <h2>Det som skickas till Puckkoll-servern</h2>
+    <p>Appen anmäler sig till min server när den startar och när något av värdena nedan ändras. Det behövs för att skicka notiser och Live Activities. Notiser är frivilliga: förrän du tillåter dem kan servern inte skicka något till dig, men anmälan innehåller ändå dina val och en markering att notiserna är av.</p>
+    <table>
+      <tr><th>Uppgift</th><th>Varför</th></tr>
+      <tr><td>Den slumpade telefonidentiteten</td><td>För att skilja telefoner åt.</td></tr>
+      <tr><td>Apples pushtoken för notiser, Live Activities och start av en Live Activity</td><td>För att leverera notiser via Apple. En token är varken ett namn eller ett nummer: Apple ger den till appen på din telefon.</td></tr>
+      <tr><td>Lagen och spelarna du följer</td><td>För att veta vilka matcher du ska få besked om.</td></tr>
+      <tr><td>Dina notisval, språk och fördröjning</td><td>För att skicka det du bett om, på ditt språk.</td></tr>
+      <tr><td>Appens version och build, och när telefonen senast hörde av sig</td><td>För att se att appen och servern fungerar ihop och för att rensa bort telefoner som försvunnit.</td></tr>
+    </table>
+    <p>Servern samlar inte in ditt namn, din e-postadress, ditt telefonnummer, din plats, dina kontakter, dina bilder, ditt reklam-ID eller något från andra appar. Den sparar inte din IP-adress. Dess egen logg visar vad som hände (till exempel ett mål i en match) och sökvägar för anrop med resultatkod, inte vem som gjorde dem. En kort lista över de senaste notiserna, med de åtta första tecknen av identiteten, hjälper mig att hitta fel och omfattar de senaste hundratals notiserna.</p>
+
+    <h2>Tipset</h2>
+    <p>Tipset är för vänner och familj och är avstängt tills du slår på det. Om du gör det ger servern dig ett slumpat smeknamn och sparar dina tips, de grupper du går med i eller skapar (med namn och koder), de reaktioner du skickar och de utmärkelser du får. De andra i dina grupper ser ditt smeknamn, dina poäng och dina tips när matchen har börjat eller så långt ditt eget val av avslöjande tillåter. Ingen ser identiteten. Under Tipset kan du byta smeknamn eller lämna Tipset, vilket tar bort dina tips och gruppmedlemskap från servern.</p>
+
+    <h2>Var uppgifterna finns och hur länge</h2>
+    <p>Servern körs på en dator hemma hos mig i Sverige. Den nås genom Cloudflares tunneltjänst, som därför hanterar din anslutning på vägen (och kan se tekniska uppgifter om den, som IP-adressen). Cloudflare är mitt personuppgiftsbiträde och följer sina egna villkor. Serverns data kopieras en gång per dygn till en säkerhetskopia på samma dator, och kopiorna sparas i två veckor.</p>
+    <ul>
+      <li>En telefons uppgifter sparas så länge du använder appen. Telefoner som inte hörts av på länge kan tas bort.</li>
+      <li>Tipset-uppgifter sparas tills du lämnar Tipset eller ber mig radera dem.</li>
+    </ul>
+
+    <h2>Andra tjänster som appen pratar med</h2>
+    <ul>
+      <li><strong>shl.se och sdhl.se.</strong> Appen hämtar scheman, resultat, tabeller och statistik direkt från ligornas egna webbplatser. De kan, som alla webbplatser, se din IP-adress och appens anrop, enligt sina egna integritetspolicyer. Puckkoll har ingen koppling till dem.</li>
+      <li><strong>Apple.</strong> Apple levererar notiser och Live Activities, distribuerar appen via TestFlight eller App Store och kan samla in användnings- och kraschdata enligt Apples egen policy. Jag ser bara det Apple väljer att dela, till exempel synpunkter du skickar via TestFlight.</li>
+      <li><strong>Var du kan se matchen.</strong> En knapp för var du kan se en match öppnar sändarens webbplats i din webbläsare, och då gäller dess egen policy.</li>
+    </ul>
+    <p>Jag säljer inte och delar inte dina uppgifter med någon annan, och appen har varken reklam eller analys.</p>
+
+    <h2>Behörigheter</h2>
+    <ul>
+      <li><strong>Notiser:</strong> bara om du tillåter dem.</li>
+      <li><strong>Kalender:</strong> enbart skrivåtkomst, och bara när du väljer att lägga till en match. Puckkoll kan lägga till en händelse men läser aldrig din kalender.</li>
+      <li><strong>Bilder:</strong> ingen. Se ovan om bildväljaren.</li>
+      <li>Appen använder inte din plats, mikrofon, kamera eller dina kontakter.</li>
+    </ul>
+
+    <h2>Dina rättigheter</h2>
+    <p>Du kan be mig berätta vad servern har sparat om dig, be mig rätta eller radera det, och när som helst återkalla ditt samtycke till notiser i appen eller i iOS Inställningar. Eftersom jag inte kan veta vem en telefon tillhör kan jag be dig visa mig identiteten från din egen telefon för att hitta dina uppgifter. Grunden för behandlingen är ditt samtycke (notiser och Tipset) och mitt berättigade intresse av att driva appen och hålla den säker. Är du missnöjd med hur jag hanterar dina uppgifter kan du klaga hos Integritetsskyddsmyndigheten, IMY (imy.se).</p>
+
+    <h2>Barn</h2>
+    <p>Puckkoll riktar sig inte till barn och samlar inte medvetet in uppgifter om någon under 13 år.</p>
+
+    <h2>Ändringar</h2>
+    <p>Om policyn ändras läggs den nya versionen ut på den här sidan med nytt datum. Om en ändring innebär att något nytt samlas in säger appen det först.</p>
+
+    <h2 id="fragor">Frågor</h2>
+    <p>Skapa ett ärende på <a href="https://github.com/iDrewn/puckkoll-site/issues">projektets GitHub-sida</a> så svarar jag där. Lägg inte din identitet eller andra personuppgifter i ett offentligt ärende: be om ett annat sätt att skicka dem så ordnar jag det.</p>
+  </article>
+</main>
+<footer>
+  <div class="wrap">
+    <p>&copy; 2026 Anders Johansson. Puckkoll har ingen koppling till SHL, SDHL, något lag eller Apple.</p>
+  </div>
+</footer>
+</body>
+</html>
