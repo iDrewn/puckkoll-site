@@ -1,6 +1,6 @@
 # Puckkoll
 
-Website for **Puckkoll**, an iPhone app for following SHL and SDHL hockey: schedule, live scores, tables, goal notifications, Live Activities, an Apple Watch app and Tipset to tip with friends (iOS 26 and later).
+Website for **Puckkoll**, an iPhone app for following SHL, SDHL and HockeyAllsvenskan hockey: schedule, live scores, tables, goal notifications, Live Activities, an Apple Watch app and Tipset to tip with friends (iOS 26 and later).
 
 Live site (once Pages is switched on): https://idrewn.github.io/puckkoll-site/
 
