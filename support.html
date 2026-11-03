@@ -1,81 +1,78 @@
 <!doctype html>
-<html lang="en">
+<html lang="sv">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Support – Puckkoll</title>
-  <meta name="description" content="Answers to common questions about Puckkoll: notifications, Tipset, SHL and SDHL, and how to report a problem.">
-  <meta name="theme-color" content="#2b6fd0">
+  <meta name="description" content="Hjälp med Puckkoll.">
+  <meta name="theme-color" content="#060b17">
   <link rel="icon" type="image/png" href="assets/favicon.png">
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="motion.css">
+  <link rel="stylesheet" href="theme.css">
 </head>
 <body>
-<header class="site-header">
-  <div class="wrap">
-    <a class="brand" href="./"><img src="assets/favicon.png" alt="" width="28" height="28">Puckkoll</a>
-    <nav aria-label="Main"><a href="./#features">Features</a><a href="privacy.html">Privacy</a><a href="support.html">Support</a></nav>
-  </div>
-</header>
-<main class="wrap">
+<div class="ambient" aria-hidden="true"></div>
+<header class="nav"><div class="wrap">
+  <a class="brand" href="./"><img src="assets/icon.png" alt="" width="24" height="24">Puckkoll</a>
+  <ul><li><a href="./#matcher">Matcher</a></li><li><a href="./#tabeller">Tabeller</a></li><li><a href="./#details">Detaljer</a></li><li><a href="./integritet.html">Integritet</a></li><li><a href="./support.html">Support</a></li></ul>
+  <a class="buy" href="https://testflight.apple.com/join/mNUufdGk">Gå med i betan</a>
+</div></header>
+<main class="doc">
   <article class="prose">
-    <h1>Support</h1>
-    <p class="meta">Help with Puckkoll</p>
+    <p class="eyebrow">Support</p>
+  <h1>Hjälp med Puckkoll</h1>
 
-    <p>Found a bug or have an idea? <a href="https://github.com/iDrewn/puckkoll-site/issues">Open an issue on GitHub</a>. If you are a TestFlight tester you can also send feedback from the TestFlight app. Not testing yet? <a href="https://testflight.apple.com/join/mNUufdGk" rel="noopener">Join the beta on TestFlight</a>. Please include your iPhone model, iOS version, the app's version and build (under Mer) and what you were doing. Do not post personal details or your Tipset identity in a public issue.</p>
+    <p>Hittat ett fel eller har en idé? <a href="https://github.com/iDrewn/puckkoll-site/issues">Öppna ett ärende på GitHub</a>. Är du testare i TestFlight kan du också skicka feedback från TestFlight-appen. Testar du inte än? <a href="https://testflight.apple.com/join/mNUufdGk" rel="noopener">Gå med i betan på TestFlight</a>. Ange gärna din iPhone-modell, iOS-version, appens version och build (under Mer) och vad du gjorde. Lägg inte ut personuppgifter eller din Tipset-identitet i ett offentligt ärende.</p>
 
-    <h2>Common questions</h2>
+    <h2>Vanliga frågor</h2>
 
     <details>
-      <summary>I do not get notifications.</summary>
-      <p>Go to Mer &rarr; Notiser and switch on Notiser och Live Activities, and allow notifications when iOS asks. Then follow at least one club under Mina lag: notifications are sent for the clubs you follow. Check that the club is an SHL club and that Focus or Do Not Disturb is not holding them back. Notifications and Live Activities come from the Puckkoll server; if the app shows a banner that the server is being serviced, they may be late for a while.</p>
+      <summary>Jag får inga notiser.</summary>
+      <p>Gå till Mer &rarr; Notiser och slå på Notiser och Live Activities, och tillåt notiser när iOS frågar. Följ sedan minst ett lag under Mina lag: notiser skickas för de lag du följer. Kontrollera att laget spelar i SHL och att Fokus eller Stör ej inte håller tillbaka dem. Notiser och Live Activities kommer från Puckkolls server. Visar appen ett meddelande om att servern underhålls kan de dröja en stund.</p>
     </details>
     <details>
-      <summary>Why are there no notifications for SDHL or HockeyAllsvenskan?</summary>
-      <p>The server follows the SHL so far. Puckkoll can show the SDHL (schedule, results, table and player statistics, but the league publishes no goals) and HockeyAllsvenskan (with goals, penalties and shots) in the app, and notifications, Live Activities and Tipset are for the SHL only for now.</p>
+      <summary>Varför finns det inga notiser för SDHL eller HockeyAllsvenskan?</summary>
+      <p>Servern följer än så länge SHL. Puckkoll kan visa SDHL (schema, resultat, tabell och spelarstatistik, men ligan publicerar inga mål) och HockeyAllsvenskan (med mål, utvisningar och skott) i appen, men notiser, Live Activities och Tipset gäller än så länge bara SHL.</p>
     </details>
     <details>
-      <summary>How do I switch between the leagues?</summary>
-      <p>Use the league menu in the top corner of Matcher and Tabell, or Mer &rarr; Utseende &rarr; Liga. The clubs you follow are remembered separately for each league.</p>
+      <summary>Hur byter jag mellan ligorna?</summary>
+      <p>Använd ligamenyn i hörnet överst på Matcher och Tabell, eller Mer &rarr; Utseende &rarr; Liga. Lagen du följer sparas separat för varje liga.</p>
     </details>
     <details>
-      <summary>What is Tipset?</summary>
-      <p>A friendly tipping game. Tip the result of a game before puck drop: the right winner gives 2 points and the exact result 3 more. Create a group, share its code, and see the season and weekly boards. You are shown by a made-up nickname. It is off until you open the Tipset tab and join.</p>
+      <summary>Vad är Tipset?</summary>
+      <p>Ett vänskapligt tippningsspel. Tippa resultatet i en match före pucksläpp: rätt vinnare ger 2 poäng och exakt resultat 3 till. Skapa en grupp, dela dess kod och följ tabellerna för säsongen och veckan. Du visas under ett påhittat smeknamn. Tipset är avstängt tills du öppnar fliken Tipset och går med.</p>
     </details>
     <details>
-      <summary>I got a new phone. How do I keep my Tipset?</summary>
-      <p>If iCloud Keychain is on, your identity follows you to the new phone. If not, open Tipset on the old phone, choose Identitet och säkerhetskopia, copy the code and use it on the new phone under Jag har redan en identitet. Keep the code to yourself: whoever has it can act as you in Tipset.</p>
+      <summary>Jag har fått en ny telefon. Hur behåller jag mitt Tipset?</summary>
+      <p>Om iCloud-nyckelringen är på följer din identitet med till den nya telefonen. Annars öppnar du Tipset på den gamla telefonen, väljer Identitet och säkerhetskopia, kopierar koden och använder den på den nya telefonen under Jag har redan en identitet. Håll koden för dig själv: den som har den kan agera som du i Tipset.</p>
     </details>
     <details>
-      <summary>How do I delete what the server knows about me?</summary>
-      <p>In Tipset you can leave Tipset, which removes your tips and group memberships. To have the rest removed, ask in an issue and I will tell you how to send me your identity without making it public. <a href="privacy.html">Read the privacy policy</a>.</p>
+      <summary>Hur raderar jag det servern vet om mig?</summary>
+      <p>I Tipset kan du lämna Tipset, vilket tar bort dina tips och gruppmedlemskap. För att få resten borttaget, fråga i ett ärende så berättar jag hur du kan skicka din identitet till mig utan att göra den offentlig. <a href="integritet.html">Läs integritetspolicyn</a>.</p>
     </details>
     <details>
-      <summary>Can I hide the results?</summary>
-      <p>Yes. Turn on Spoilerfritt läge under Mer. Results of games that have started are hidden until you tap to reveal them. Notifications and Live Activities still show results: switch them off, or use the 30 second delay, for games you watch later.</p>
+      <summary>Kan jag dölja resultaten?</summary>
+      <p>Ja. Slå på Spoilerfritt läge under Mer. Resultat i matcher som har börjat döljs tills du trycker för att visa dem. Notiser och Live Activities visar fortfarande resultat: stäng av dem, eller använd fördröjningen på 30 sekunder, för matcher du ser senare.</p>
     </details>
     <details>
-      <summary>How do I change the badges, or show more columns in the table?</summary>
-      <p>Under Mer &rarr; Utseende you can pick Puck or Skiva med lagkod for the badges, and Egna lagbilder to put a picture of your own on a club. In Tabell, the table button in the toolbar opens the column picker. On a narrow screen only the most important columns fit; turn the phone on its side for more.</p>
+      <summary>Hur ändrar jag märkena, eller visar fler kolumner i tabellen?</summary>
+      <p>Under Mer &rarr; Utseende kan du välja Puck eller Skiva med lagkod för märkena, och Egna lagbilder för att lägga en egen bild på ett lag. I Tabell öppnar tabellknappen i verktygsfältet kolumnväljaren. På en smal skärm får bara de viktigaste kolumnerna plats: vänd telefonen på sidan för fler.</p>
     </details>
     <details>
-      <summary>Why does a score look wrong for a few minutes?</summary>
-      <p>Puckkoll reads the leagues' own websites, which are sometimes a little behind or briefly show a game as finished before the score is filled in. The app and server check the play-by-play and correct it as soon as the league does. If a result stays wrong, please report it with the game and the time.</p>
+      <summary>Varför ser ett resultat fel ut i några minuter?</summary>
+      <p>Puckkoll läser ligornas egna webbplatser, som ibland ligger lite efter eller kort visar en match som slut innan resultatet fyllts i. Appen och servern kontrollerar play-by-play och rättar det så snart ligan gör det. Står ett resultat fel kvar, rapportera gärna matchen och tidpunkten.</p>
     </details>
     <details>
-      <summary>Does Puckkoll use my photos or my location?</summary>
-      <p>No. Pictures for clubs are chosen with the system photo picker, so the app never sees your library, and the app does not use your location.</p>
+      <summary>Använder Puckkoll mina bilder eller min plats?</summary>
+      <p>Nej. Bilder till lag väljs med systemets bildväljare, så appen ser aldrig ditt bildbibliotek, och appen använder inte din plats.</p>
     </details>
     <details>
-      <summary>Which languages does it support?</summary>
-      <p>Swedish and English. Automatic follows your iPhone's language and can be changed under Mer &rarr; Utseende &rarr; Språk.</p>
+      <summary>Vilka språk stöds?</summary>
+      <p>Svenska och engelska. Automatiskt följer din iPhones språk och kan ändras under Mer &rarr; Utseende &rarr; Språk.</p>
     </details>
   </article>
 </main>
-<footer>
-  <div class="wrap">
-    <p>&copy; 2026 Anders Johansson. Puckkoll is not affiliated with or endorsed by the SHL, the SDHL, any club or Apple.</p>
-  </div>
-</footer>
+<footer><div class="wrap"><p>&copy; 2026 Anders Johansson. Puckkoll är gjord av <a href="https://github.com/iDrewn">Anders Johansson</a>.</p><p>Puckkoll är en oberoende app och har ingen koppling till SHL, SDHL, något lag eller Apple. Klubbarnas namn och färger tillhör dem; Puckkoll ritar egna märken och har inga officiella logotyper. iPhone, iPhone Duo, Apple Watch och Live Activities är varumärken eller funktioner som tillhör Apple Inc. Skärmbilderna visar appen i Xcodes simulator.</p><p><a href="integritet.html">Integritetspolicy</a> &middot; <a href="privacy.html">Privacy policy (English)</a> &middot; <a href="support.html">Support</a></p></div></footer>
 </body>
 </html>

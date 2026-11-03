@@ -1,0 +1,6 @@
+:root { --accent: #2b6fd0; --accent2: #7ab7ff; --accent3: #9be7ff; --bg: #060b17; --glow: 43,111,208; }
+.puck { --a:#fff; --b:#fff; position: relative; display: block; width: 56px; height: 56px; border-radius: 50%; background: linear-gradient(180deg,#4a4a4c,#1b1b1d); box-shadow: 0 6px 18px rgba(0,0,0,.45); flex: none; }
+.puck::before { content:""; position:absolute; inset:9%; border-radius:50%; transform:translateY(-1%); background: linear-gradient(90deg,var(--a) 0 32%,var(--b) 32% 68%,var(--a) 68%); }
+.puck::after { content:""; position:absolute; inset:9%; border-radius:50%; transform:translateY(-1%); background: linear-gradient(135deg,rgba(255,255,255,.34),rgba(255,255,255,0) 45%,rgba(0,0,0,.22)); box-shadow: inset 0 0 0 1px rgba(255,255,255,.3); }
+.puck.big { width: clamp(54px, 9vw, 96px); height: clamp(54px, 9vw, 96px); will-change: transform; }
+.pucks { display: flex; flex-wrap: wrap; justify-content: center; gap: clamp(14px, 3vw, 34px); max-width: 980px; margin: 0 auto; }
