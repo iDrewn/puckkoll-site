@@ -2,9 +2,10 @@
 
 Website for **Puckkoll**, an iPhone app for following SHL, SDHL and HockeyAllsvenskan hockey: schedule, live scores, tables, goal notifications, Live Activities, an Apple Watch app and Tipset to tip with friends (iOS 26 and later).
 
-Live site (once Pages is switched on): https://idrewn.github.io/puckkoll-site/
+Live site: https://idrewn.github.io/puckkoll-site/
 
 - [Home](https://idrewn.github.io/puckkoll-site/)
+- [App Store](https://apps.apple.com/se/app/puckkoll/id6828416510)
 - [Privacy policy](https://idrewn.github.io/puckkoll-site/privacy.html) · [Integritetspolicy](https://idrewn.github.io/puckkoll-site/integritet.html)
 - [Support](https://idrewn.github.io/puckkoll-site/support.html)
 
