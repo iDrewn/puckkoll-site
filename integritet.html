@@ -22,9 +22,9 @@
   <article class="prose">
     <p class="eyebrow">Integritet</p>
   <h1>Integritetspolicy</h1>
-    <p class="meta">Puckkoll &middot; Senast uppdaterad 31 oktober 2026 &middot; <a href="privacy.html">English</a></p>
+    <p class="meta">Puckkoll &middot; Senast uppdaterad 17 november 2026 &middot; <a href="privacy.html">English</a></p>
 
-    <p><strong>Puckkoll har inga konton, ingen reklam, ingen analys och ingen spårning.</strong> Appen vet inte vem du är. Det mesta som appen känner till finns kvar på din telefon. En liten server som jag driver skickar notiserna och sparar bara det som behövs för det. Här står exakt vad, och varför.</p>
+    <p><strong>Puckkoll har inga konton, ingen reklam, inga analysverktyg från andra och ingen spårning.</strong> Appen vet inte vem du är. Det mesta som appen känner till finns kvar på din telefon. En liten server som jag driver skickar notiserna och sparar bara det som behövs för det. Här står exakt vad, och varför.</p>
 
     <h2>Vem som ansvarar</h2>
     <p>Anders Johansson, privatperson i Sverige, gör Puckkoll och driver servern. Jag är personuppgiftsansvarig för de uppgifter som beskrivs här. Kontakt: se <a href="#fragor">Frågor</a> nedan.</p>
@@ -46,13 +46,16 @@
       <tr><td>Den slumpade telefonidentiteten</td><td>För att skilja telefoner åt.</td></tr>
       <tr><td>Apples pushtoken för notiser, Live Activities och start av en Live Activity</td><td>För att leverera notiser via Apple. En token är varken ett namn eller ett nummer: Apple ger den till appen på din telefon.</td></tr>
       <tr><td>Lagen och spelarna du följer</td><td>För att veta vilka matcher du ska få besked om.</td></tr>
-      <tr><td>Dina notisval, språk och fördröjning</td><td>För att skicka det du bett om, på ditt språk.</td></tr>
+      <tr><td>Dina notisval (till exempel om du vill ha ett morgonbesked på matchdagar), språk och fördröjning</td><td>För att skicka det du bett om, på ditt språk.</td></tr>
+      <tr><td>Hur ofta appen och några funktioner används, som antal öppningar, vilka flikar som öppnats och hur många gånger du delat en match, skannat en QR-kod eller ställt en fråga till Fråga Puckkoll. Bara antal, aldrig vad du tittade på eller skrev.</td><td>För att se vad som används och vad som kan bli bättre, när jag inte har någon annan väg att få veta det.</td></tr>
       <tr><td>Appens version och build, och när telefonen senast hörde av sig</td><td>För att se att appen och servern fungerar ihop och för att rensa bort telefoner som försvunnit.</td></tr>
     </table>
     <p>Servern samlar inte in ditt namn, din e-postadress, ditt telefonnummer, din plats, dina kontakter, dina bilder, ditt reklam-ID eller något från andra appar. Den sparar inte din IP-adress. Dess egen logg visar vad som hände (till exempel ett mål i en match) och sökvägar för anrop med resultatkod, inte vem som gjorde dem. En kort lista över de senaste notiserna, med de åtta första tecknen av identiteten, hjälper mig att hitta fel och omfattar de senaste hundratals notiserna.</p>
 
+    <p>Antalen räknas först på din telefon och skickas med anmälan. Servern lägger ihop dem i en summa per dag för alla telefoner och sparar dem inte per telefon, så jag kan se att till exempel tabellfliken öppnades 80 gånger i går men inte av vem. Siffrorna kommer med samma telefonidentitet som resten av anmälan, och därför räknar jag dem som kopplade till din telefon medan de är på väg, men inte som något jag sparar om dig. Servern sparar också dagen en telefon först anmälde sig, för att kunna se hur många som kommer tillbaka. Ingen del av detta delas med någon annan.</p>
+
     <h2>Tipset</h2>
-    <p>Tipset är för vänner och familj och är avstängt tills du slår på det. Om du gör det ger servern dig ett slumpat smeknamn och sparar dina tips, de grupper du går med i eller skapar (med namn och koder), de reaktioner du skickar och de utmärkelser du får. De andra i dina grupper ser ditt smeknamn, dina poäng och dina tips när matchen har börjat eller så långt ditt eget val av avslöjande tillåter. Ingen ser identiteten. Under Tipset kan du byta smeknamn eller lämna Tipset, vilket tar bort dina tips och gruppmedlemskap från servern.</p>
+    <p>Tipset är för vänner och familj och är avstängt tills du slår på det. Om du gör det ger servern dig ett slumpat smeknamn och sparar dina tips, de grupper du går med i eller skapar (med namn och koder), de reaktioner du skickar och de utmärkelser du får. De andra i dina grupper ser ditt smeknamn, dina poäng och dina tips när matchen har börjat eller så långt ditt eget val av avslöjande tillåter. Ingen ser identiteten. Tipset kan skicka notiser, som en påminnelse innan en match du inte tippat, poängen efter en match och på måndagar vem som vann veckan i en grupp; du kan stänga av dem under Tipset. Under Tipset kan du byta smeknamn eller lämna Tipset, vilket tar bort dina tips och gruppmedlemskap från servern.</p>
 
     <h2>Var uppgifterna finns och hur länge</h2>
     <p>Servern körs på en dator hemma hos mig i Sverige. Den nås genom Cloudflares tunneltjänst, som därför hanterar din anslutning på vägen (och kan se tekniska uppgifter om den, som IP-adressen). Cloudflare är mitt personuppgiftsbiträde och följer sina egna villkor. Serverns data kopieras en gång per dygn till en säkerhetskopia på samma dator, och kopiorna sparas i två veckor.</p>
@@ -67,7 +70,7 @@
       <li><strong>Apple.</strong> Apple levererar notiser och Live Activities, distribuerar appen via TestFlight eller App Store och kan samla in användnings- och kraschdata enligt Apples egen policy. Jag ser bara det Apple väljer att dela, till exempel synpunkter du skickar via TestFlight.</li>
       <li><strong>Var du kan se matchen.</strong> En knapp för var du kan se en match öppnar sändarens webbplats i din webbläsare, och då gäller dess egen policy.</li>
     </ul>
-    <p>Jag säljer inte och delar inte dina uppgifter med någon annan, och appen har varken reklam eller analys.</p>
+    <p>Jag säljer inte och delar inte dina uppgifter med någon annan, och appen har ingen reklam och inga analysverktyg från andra.</p>
 
     <h2>Behörigheter</h2>
     <ul>
